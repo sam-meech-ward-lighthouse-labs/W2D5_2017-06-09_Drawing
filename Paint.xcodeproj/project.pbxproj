@@ -13,6 +13,7 @@
 		22B531511EEB5CFD00C3E3D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B531501EEB5CFD00C3E3D1 /* Assets.xcassets */; };
 		22B531541EEB5CFD00C3E3D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B531521EEB5CFD00C3E3D1 /* LaunchScreen.storyboard */; };
 		22B531571EEB5CFD00C3E3D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B531561EEB5CFD00C3E3D1 /* main.m */; };
+		22B5315F1EEB5D2C00C3E3D1 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B5315E1EEB5D2C00C3E3D1 /* DrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		22B531531EEB5CFD00C3E3D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22B531551EEB5CFD00C3E3D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22B531561EEB5CFD00C3E3D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22B5315D1EEB5D2C00C3E3D1 /* DrawingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		22B5315E1EEB5D2C00C3E3D1 /* DrawingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				22B531481EEB5CFD00C3E3D1 /* AppDelegate.m */,
 				22B5314A1EEB5CFD00C3E3D1 /* ViewController.h */,
 				22B5314B1EEB5CFD00C3E3D1 /* ViewController.m */,
+				22B5315D1EEB5D2C00C3E3D1 /* DrawingView.h */,
+				22B5315E1EEB5D2C00C3E3D1 /* DrawingView.m */,
 				22B5314D1EEB5CFD00C3E3D1 /* Main.storyboard */,
 				22B531501EEB5CFD00C3E3D1 /* Assets.xcassets */,
 				22B531521EEB5CFD00C3E3D1 /* LaunchScreen.storyboard */,
@@ -144,6 +149,7 @@
 				22B5314C1EEB5CFD00C3E3D1 /* ViewController.m in Sources */,
 				22B531571EEB5CFD00C3E3D1 /* main.m in Sources */,
 				22B531491EEB5CFD00C3E3D1 /* AppDelegate.m in Sources */,
+				22B5315F1EEB5D2C00C3E3D1 /* DrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
